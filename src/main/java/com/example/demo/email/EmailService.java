@@ -33,7 +33,7 @@ public class EmailService implements EmailSender{
             helper.setFrom("hello@amigoscode.com");
             mailSender.send(mimeMessage);
         } catch (MessagingException e) {
-            LOGGER.error("failed 111to sensd email", e);
+            LOGGER.error("failed 111to sensssd email", e);
             throw new IllegalStateException("failed to send email");
         }
     }
